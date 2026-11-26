@@ -8,6 +8,9 @@ The line is a sign a ghost would tape to the door: the room is haunted
 by the engineer who could not resist one last Friday deploy, the oldest
 curse in IT. Short, punchy, readable at a glance, and 87 characters --
 inside the 1-120 character gate.
+
+Output contract: the file holds exactly the 87-character sign with no
+trailing newline, verified by running the program twice byte-identical.
 """
 
 import os
